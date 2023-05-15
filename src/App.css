@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  img {
+    @apply inline-block;
+  }
+}
+
+@font-face {
+  font-family: "Cairo-Bold";
+  src: url("../public/assets/fonts/Cairo-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
